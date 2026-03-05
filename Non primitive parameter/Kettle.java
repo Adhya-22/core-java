@@ -6,4 +6,9 @@ class Kettle
 	{
 		this.capacity=capacity;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("capacity : "+this.capacity);
+	}
 }

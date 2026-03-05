@@ -6,4 +6,9 @@ class Trophy
 	{
 		this.weight=weight;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("weight : "+this.weight);
+	}
 }

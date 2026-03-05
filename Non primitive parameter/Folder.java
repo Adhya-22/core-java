@@ -6,4 +6,9 @@ class Folder
 	{
 		this.folderName=folderName;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("folderName : "+this.folderName);
+	}
 }

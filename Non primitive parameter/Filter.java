@@ -6,4 +6,9 @@ class Filter
 	{
 		this.brand=brand;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("brand : "+this.brand);
+	}
 }

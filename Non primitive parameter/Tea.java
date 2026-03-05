@@ -26,4 +26,13 @@ class Tea
 		this.sugar=sugar;
 		this.kettle=kettle;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("cupCount : "+this.cupCount);
+		System.out.println("temperature : "+this.temperature);
+		System.out.println("origin : "+this.origin);
+		System.out.println("sweet : "+this.sweet);
+		System.out.println("flavor : "+this.flavor);
+	}
 }

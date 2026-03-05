@@ -6,4 +6,9 @@ class Massage
 	{
 		this.massageType=massageType;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("massageType : "+this.massageType);
+	}
 }

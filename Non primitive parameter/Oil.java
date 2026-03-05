@@ -6,4 +6,9 @@ class Oil
 	{
 		this.fragrance=fragrance;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("fragrance : "+this.fragrance);
+	}
 }

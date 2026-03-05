@@ -6,4 +6,9 @@ class TrainingSession
 	{
 		this.hours=hours;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("hours : "+this.hours);
+	}
 }

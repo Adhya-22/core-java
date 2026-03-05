@@ -6,4 +6,9 @@ class CoolingFan
 	{
 		this.noOfBlade=noOfBlade;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("noOfBlade : "+this.noOfBlade);
+	}
 }

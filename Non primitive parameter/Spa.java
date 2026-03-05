@@ -26,4 +26,13 @@ class Spa
 		this.oil=oil;
 		this.room=room;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("spaName : "+this.spaName);
+		System.out.println("noOfTreatmentRooms : "+this.noOfTreatmentRooms);
+		System.out.println("serviceCost : "+this.serviceCost);
+		System.out.println("noOfEmployees : "+this.noOfEmployees);
+		System.out.println("membershipAvailable : "+this.membershipAvailable);
+	}
 }

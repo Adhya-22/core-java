@@ -26,4 +26,13 @@ class Bell
 		this.stand=stand;
 		this.sound=sound;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("shape : "+this.shape);
+		System.out.println("sonarity : "+this.sonarity);
+		System.out.println("strength : "+this.strength);
+		System.out.println("corrosionResistant : "+this.corrosionResistant);
+		System.out.println("primaryComposition : "+this.primaryComposition);
+	}
 }

@@ -26,6 +26,15 @@ class Lion
 		this.habitat=habitat;
 		this.tail=tail;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("name : "+this.name);
+		System.out.println("age : "+this.age);
+		System.out.println("weight : "+this.weight);
+		System.out.println("gender : "+this.gender);
+		System.out.println("isInZoo : "+this.isInZoo);
+	}
 }
 
 

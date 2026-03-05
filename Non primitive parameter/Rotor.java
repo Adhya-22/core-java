@@ -6,4 +6,9 @@ class Rotor
 	{
 		this.radius=radius;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("radius : "+this.radius);
+	}
 }

@@ -6,4 +6,9 @@ class Light
 	{
 		this.usingLed=usingLed;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("usingLed : "+this.usingLed);
+	}
 }

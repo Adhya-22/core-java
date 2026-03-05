@@ -6,4 +6,9 @@ class TeaGrain
 	{
 		this.solubility=solubility;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("solubility : "+this.solubility);
+	}
 }

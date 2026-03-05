@@ -6,4 +6,9 @@ class Strategy
 	{
 		this.futureOriented=futureOriented;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("futureOriented : "+this.futureOriented);
+	}
 }

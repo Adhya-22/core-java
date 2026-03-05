@@ -6,4 +6,9 @@ class Rain
 	{
 		this.durationInHours=durationInHours;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("durationInHours : "+this.durationInHours);
+	}
 }

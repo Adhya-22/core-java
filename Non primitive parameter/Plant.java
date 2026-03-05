@@ -6,5 +6,10 @@ class Plant
 	{
 		this.noOfPlants=noOfPlants;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("noOfPlants : "+this.noOfPlants);
+	}
 }
 

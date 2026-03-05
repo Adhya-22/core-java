@@ -6,4 +6,9 @@ class Handle
 	{
 		this.material=material;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("material : "+this.material);
+	}
 }

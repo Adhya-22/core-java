@@ -6,4 +6,9 @@ class Date
 	{
 		this.year=year;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("year : "+this.year);
+	}
 }

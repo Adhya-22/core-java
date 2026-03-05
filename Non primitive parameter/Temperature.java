@@ -6,4 +6,9 @@ class Temperature
 	{
 		this.hot=hot;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("hot : "+this.hot);
+	}
 }

@@ -6,4 +6,9 @@ class Cub
 	{
 		this.cubGender=cubGender;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("cubGender : "+this.cubGender);
+	}
 }

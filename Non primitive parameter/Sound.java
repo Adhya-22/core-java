@@ -6,4 +6,9 @@ class Sound
 	{
 		this.frequency=frequency;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("frequency : "+this.frequency);
+	}
 }

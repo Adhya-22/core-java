@@ -7,4 +7,8 @@ class Cable
 		this.lengthInMeter=lengthInMeter;
 	}
 	
+	void getInfo()
+	{
+		System.out.println("lengthInMeter : "+this.lengthInMeter);
+	}
 }

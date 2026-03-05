@@ -20,11 +20,19 @@ class Mouse
 		this.hasBattery=hasBattery;
 		this.wireless=wireless;
 		this.color=color;
-		
 		this.battery=battery;
 		this.cable=cable;
 		this.mousePad=mousePad;
 		this.scrollWheel=scrollWheel;
 		this.led=led;
+	}
+	
+	void getInfo()
+	{
+		System.out.println("brand : "+this.brand);
+		System.out.println("price : "+this.price);
+		System.out.println("hasBattery : "+this.hasBattery);
+		System.out.println("wireless : "+this.wireless);
+		System.out.println("color : "+this.color);
 	}
 }

@@ -6,4 +6,9 @@ class Tail
 	{
 		this.furry=furry;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("furry : "+this.furry);
+	}
 }

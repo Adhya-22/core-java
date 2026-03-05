@@ -6,4 +6,9 @@ class Moisture
 	{
 		this.percentage=percentage;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("percentage : "+this.percentage);
+	}
 }

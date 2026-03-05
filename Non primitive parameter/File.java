@@ -27,5 +27,14 @@ class File
 		this.date=date;
 	}
 	
+	void getInfo()
+	{
+		System.out.println("name : "+this.name);
+		System.out.println("sizeInKb : "+this.sizeInKb);
+		System.out.println("isformatted : "+this.isformatted);
+		System.out.println("hidden : "+this.hidden);
+		System.out.println("compressed : "+this.compressed);
+	}
+	
 	
 }

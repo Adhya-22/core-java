@@ -6,4 +6,9 @@ class Prey
 	{
 		this.preyName=preyName;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("preyName : "+this.preyName);
+	}
 }

@@ -6,4 +6,9 @@ class ScrollWheel
 	{
 		this.worksAsButton=worksAsButton;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("worksAsButton : "+this.worksAsButton);
+	}
 }

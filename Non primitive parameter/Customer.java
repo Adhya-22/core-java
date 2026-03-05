@@ -6,4 +6,9 @@ class Customer
 	{
 		this.customerName=customerName;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("customerName : "+this.customerName);
+	}
 }

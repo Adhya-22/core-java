@@ -6,4 +6,9 @@ class Milk
 	{
 		this.type=type;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("type : "+this.type);
+	}
 }

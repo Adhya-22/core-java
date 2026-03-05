@@ -6,4 +6,9 @@ class Stand
 	{
 		this.lengthInMeter=lengthInMeter;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("lengthInMeter : "+this.lengthInMeter);
+	}
 }

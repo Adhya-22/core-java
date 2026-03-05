@@ -27,6 +27,14 @@ class Ipl
 		this.umpire=umpire;
 	}
 	
+	void getInfo()
+	{
+		System.out.println("seasons : "+this.seasons);
+		System.out.println("noOfTeams : "+this.noOfTeams);
+		System.out.println("titleSponsor : "+this.titleSponsor);
+		System.out.println("playOffs : "+this.playOffs);
+		System.out.println("nightMatch : "+this.nightMatch);
+	}
 }
 
 

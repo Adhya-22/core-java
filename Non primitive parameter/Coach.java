@@ -26,4 +26,13 @@ class Coach
 		this.trainingSession=trainingSession;
 		this.stadium=stadium;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("name : "+this.name);
+		System.out.println("experienceYears : "+this.experienceYears);
+		System.out.println("salary : "+this.salary);
+		System.out.println("certified : "+this.certified);
+		System.out.println("retired : "+this.retired);
+	}
 }

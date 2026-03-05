@@ -6,4 +6,9 @@ class Led
 	{
 		this.voltage=voltage;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("voltage : "+this.voltage);
+	}
 }

@@ -6,4 +6,9 @@ class Owner
 	{
 		this.ownerName=ownerName;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("ownerName : "+this.ownerName);
+	}
 }

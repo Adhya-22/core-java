@@ -6,4 +6,9 @@ class Player
 	{
 		this.playerName=playerName;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("playerName : "+this.playerName);
+	}
 }

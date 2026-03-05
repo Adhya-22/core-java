@@ -7,4 +7,8 @@ class Gear
 		this.type=type;
 	}
 	
+	void getInfo()
+	{
+		System.out.println("type : "+this.type);
+	}
 }

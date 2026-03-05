@@ -6,4 +6,9 @@ class MousePad
 	{
 		this.surfaceType=surfaceType;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("surfaceType : "+this.surfaceType);
+	}
 }

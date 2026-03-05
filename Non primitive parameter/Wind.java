@@ -6,4 +6,9 @@ class Wind
 	{
 		this.speedInKmPerHr=speedInKmPerHr;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("speedInKmPerHr : "+this.speedInKmPerHr);
+	}
 }

@@ -26,4 +26,13 @@ class Motor
 		this.bearing=bearing;
 		this.coolingFan=coolingFan;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("brand : "+this.brand);
+		System.out.println("price : "+this.price);
+		System.out.println("efficiency : "+this.efficiency);
+		System.out.println("phaseType : "+this.phaseType);
+		System.out.println("isElectric : "+this.isElectric);
+	}
 }

@@ -6,4 +6,9 @@ class Storage
 	{
 		this.driveName=driveName;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("driveName : "+this.driveName);
+	}
 }

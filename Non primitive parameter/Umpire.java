@@ -6,4 +6,9 @@ class Umpire
 	{
 		this.umpireName=umpireName;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("umpireName : "+this.umpireName);
+	}
 }

@@ -26,5 +26,14 @@ class Cloud
 		this.temperature=temperature;
 		this.rain=rain;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("coveragePercentage : "+this.coveragePercentage);
+		System.out.println("altitude : "+this.altitude);
+		System.out.println("producingRain : "+this.producingRain);
+		System.out.println("densityLevel : "+this.densityLevel);
+		System.out.println("thickness : "+this.thickness);
+	}
 }
 

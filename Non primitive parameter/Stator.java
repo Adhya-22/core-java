@@ -6,4 +6,9 @@ class Stator
 	{
 		this.noOfCoils=noOfCoils;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("noOfCoils : "+this.noOfCoils);
+	}
 }

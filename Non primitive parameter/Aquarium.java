@@ -26,4 +26,13 @@ class Aquarium
 		this.light=light;
 		this.filter=filter;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("fishCount : "+this.fishCount);
+		System.out.println("shape : "+this.shape);
+		System.out.println("waterCapacity : "+this.waterCapacity);
+		System.out.println("filtered : "+this.filtered);
+		System.out.println("decorated : "+this.decorated);
+	}
 }

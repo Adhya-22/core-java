@@ -6,4 +6,9 @@ class Water
 	{
 		this.salted=salted;
 	}
+	
+	void getInfo()
+	{
+		System.out.println("salted : "+this.salted);
+	}
 }
