@@ -34,6 +34,26 @@ class Cloud
 		System.out.println("producingRain : "+this.producingRain);
 		System.out.println("densityLevel : "+this.densityLevel);
 		System.out.println("thickness : "+this.thickness);
+		if(this.rain!=null)
+		{
+			this.rain.getInfo();
+		}
+		if(this.temperature!=null)
+		{
+			this.temperature.getInfo();
+		}
+		if(this.wind!=null)
+		{
+			this.wind.getInfo();
+		}
+		if(this.moisture!=null)
+		{
+			this.moisture.getInfo();
+		}
+		if(this.waterDroplet!=null)
+		{
+			this.waterDroplet.getInfo();
+		}
 	}
 }
 

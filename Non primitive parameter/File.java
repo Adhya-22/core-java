@@ -34,6 +34,26 @@ class File
 		System.out.println("isformatted : "+this.isformatted);
 		System.out.println("hidden : "+this.hidden);
 		System.out.println("compressed : "+this.compressed);
+		if(this.extension!=null)
+		{
+			this.extension.getInfo();
+		}
+		if(this.storage!=null)
+		{
+			this.storage.getInfo();
+		}
+		if(this.folder!=null)
+		{
+			this.folder.getInfo();
+		}
+		if(this.owner!=null)
+		{
+			this.owner.getInfo();
+		}
+		if(this.date!=null)
+		{
+			this.date.getInfo();
+		}
 	}
 	
 	

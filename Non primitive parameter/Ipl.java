@@ -34,6 +34,26 @@ class Ipl
 		System.out.println("titleSponsor : "+this.titleSponsor);
 		System.out.println("playOffs : "+this.playOffs);
 		System.out.println("nightMatch : "+this.nightMatch);
+		if(this.team!=null)
+		{
+			this.team.getInfo();
+		}
+		if(this.trophy!=null)
+		{
+			this.trophy.getInfo();
+		}
+		if(this.player!=null)
+		{
+			this.player.getInfo();
+		}
+		if(this.stadium!=null)
+		{
+			this.stadium.getInfo();
+		}
+		if(this.umpire!=null)
+		{
+			this.umpire.getInfo();
+		}
 	}
 }
 

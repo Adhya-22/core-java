@@ -34,5 +34,25 @@ class Motor
 		System.out.println("efficiency : "+this.efficiency);
 		System.out.println("phaseType : "+this.phaseType);
 		System.out.println("isElectric : "+this.isElectric);
+		if(this.gear!=null)
+		{
+			this.gear.getInfo();
+		}
+		if(this.rotor!=null)
+		{
+			this.rotor.getInfo();
+		}
+		if(this.stator!=null)
+		{
+			this.stator.getInfo();
+		}
+		if(this.bearing!=null)
+		{
+			this.bearing.getInfo();
+		}
+		if(this.coolingFan!=null)
+		{
+			this.coolingFan.getInfo();
+		}
 	}
 }

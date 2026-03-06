@@ -34,6 +34,26 @@ class Lion
 		System.out.println("weight : "+this.weight);
 		System.out.println("gender : "+this.gender);
 		System.out.println("isInZoo : "+this.isInZoo);
+		if(this.teeth!=null)
+		{
+			this.teeth.getInfo();
+		}
+		if(this.cub!=null)
+		{
+			this.cub.getInfo();
+		}
+		if(this.prey!=null)
+		{
+			this.prey.getInfo();
+		}
+		if(this.habitat!=null)
+		{
+			this.habitat.getInfo();
+		}
+		if(this.tail!=null)
+		{
+			this.tail.getInfo();
+		}
 	}
 }
 

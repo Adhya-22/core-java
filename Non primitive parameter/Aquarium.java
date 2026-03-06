@@ -34,5 +34,25 @@ class Aquarium
 		System.out.println("waterCapacity : "+this.waterCapacity);
 		System.out.println("filtered : "+this.filtered);
 		System.out.println("decorated : "+this.decorated);
+		if(this.fish!=null)
+		{
+			this.fish.getInfo();
+		}
+		if(this.water!=null)
+		{
+			this.water.getInfo();
+		}
+		if(this.plant!=null)
+		{
+			this.plant.getInfo();
+		}
+		if(this.light!=null)
+		{
+			this.light.getInfo();
+		}
+		if(this.filter!=null)
+		{
+			this.filter.getInfo();
+		}
 	}
 }

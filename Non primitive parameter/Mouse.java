@@ -34,5 +34,25 @@ class Mouse
 		System.out.println("hasBattery : "+this.hasBattery);
 		System.out.println("wireless : "+this.wireless);
 		System.out.println("color : "+this.color);
+		if(this.led!=null)
+		{
+			this.led.getInfo();
+		}
+		if(this.scrollWheel!=null)
+		{
+			this.scrollWheel.getInfo();
+		}
+		if(this.mousePad!=null)
+		{
+			this.mousePad.getInfo();
+		}
+		if(this.cable!=null)
+		{
+			this.cable.getInfo();
+		}
+		if(this.battery!=null)
+		{
+			this.battery.getInfo();
+		}
 	}
 }

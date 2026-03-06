@@ -6,11 +6,12 @@ class Bell
 	boolean corrosionResistant;
 	String primaryComposition;
 	
-	Handle handle;
+	Sound sound;
 	Metal metal;
 	Striker striker;
+	Handle handle;
 	Stand stand;
-	Sound sound;
+	
 	
 	Bell(String shape,boolean sonority,String strength,boolean corrosionResistant,String primaryComposition,
 	Handle handle,Metal metal,Striker striker,Stand stand,Sound sound)
@@ -34,5 +35,25 @@ class Bell
 		System.out.println("strength : "+this.strength);
 		System.out.println("corrosionResistant : "+this.corrosionResistant);
 		System.out.println("primaryComposition : "+this.primaryComposition);
+		if(this.sound!=null)
+		{
+			this.sound.getInfo();
+		}
+		if(this.metal!=null)
+		{
+			this.metal.getInfo();
+		}
+		if(this.striker!=null)
+		{
+			this.striker.getInfo();
+		}
+		if(this.handle!=null)
+		{
+			this.handle.getInfo();
+		}
+		if(this.stand!=null)
+		{
+			this.stand.getInfo();
+		}
 	}
 }

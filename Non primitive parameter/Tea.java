@@ -34,5 +34,25 @@ class Tea
 		System.out.println("origin : "+this.origin);
 		System.out.println("sweet : "+this.sweet);
 		System.out.println("flavor : "+this.flavor);
+		if(this.teaGrain!=null)
+		{
+			this.teaGrain.getInfo();
+		}
+		if(this.cup!=null)
+		{
+			this.cup.getInfo();
+		}
+		if(this.milk!=null)
+		{
+			this.milk.getInfo();
+		}
+		if(this.sugar!=null)
+		{
+			this.sugar.getInfo();
+		}
+		if(this.kettle!=null)
+		{
+			this.kettle.getInfo();
+		}
 	}
 }

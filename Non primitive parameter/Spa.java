@@ -34,5 +34,25 @@ class Spa
 		System.out.println("serviceCost : "+this.serviceCost);
 		System.out.println("noOfEmployees : "+this.noOfEmployees);
 		System.out.println("membershipAvailable : "+this.membershipAvailable);
+		if(this.customer!=null)
+		{
+			this.customer.getInfo();
+		}
+		if(this.owner!=null)
+		{
+			this.owner.getInfo();
+		}
+		if(this.massage!=null)
+		{
+			this.massage.getInfo();
+		}
+		if(this.oil!=null)
+		{
+			this.oil.getInfo();
+		}
+		if(this.room!=null)
+		{
+			this.room.getInfo();
+		}
 	}
 }
