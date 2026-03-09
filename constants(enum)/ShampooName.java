@@ -1,0 +1,4 @@
+enum ShampooName
+{
+	LOREAL,PANTENE,CLINIC_PLUS,DOVE;
+}

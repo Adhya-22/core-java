@@ -1,0 +1,4 @@
+enum WalnutType 
+{
+    ENGLISH,BLACK,WHITE,BUTTERNUT;
+}
