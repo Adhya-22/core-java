@@ -1,4 +1,0 @@
-enum ParliamentType
-{
-	LOKASABHA,RAJYASABHA
-}

@@ -1,4 +1,0 @@
-enum Flavour 
-{
-    CLASSIC,CHOCOLATE,VANILLA,ELACHI;
-}

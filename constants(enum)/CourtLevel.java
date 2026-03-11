@@ -1,4 +1,0 @@
-enum CourtLevel
-{
-	SUPREME,HIGH,DISTRICT,GRAM_PANCHAYAT;
-}

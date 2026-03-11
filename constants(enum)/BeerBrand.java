@@ -1,4 +1,0 @@
-enum BeerBrand
-{
-	KINGFISHER,BUDWEISER,HEINEKEN,CORONA;
-}

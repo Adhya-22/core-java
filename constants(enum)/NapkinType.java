@@ -1,4 +1,0 @@
-enum NapkinType
-{
-	CLOTH,PAPER,DINING,KITCHEN
-}
