@@ -14,5 +14,17 @@ class PetroleumCompanyStoreRunner
 		
 		boolean found=petroleumCompanyStore.search("Oil India Limited");
 		System.out.println("Company name found : "+found);
+		
+		boolean update=petroleumCompanyStore.update(1,"Oil India Limited");
+		System.out.println("Updated ? : "+update);
+		
+		boolean update1=petroleumCompanyStore.update("Hindustan Petroleum Corporation Ltd","Oil and Natural Gas Corporation");
+		System.out.println("Updated ? : "+update1);
+		
+		String delete=petroleumCompanyStore.delete(0);
+		System.out.println("Deleted ? : "+delete);
+		
+		String delete1=petroleumCompanyStore.delete("Bharat Petroleum Corporation Ltd");
+		System.out.println("Deleted ? : "+delete1);
 	}
 }

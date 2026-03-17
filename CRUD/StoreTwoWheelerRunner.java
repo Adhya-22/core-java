@@ -29,5 +29,17 @@ class StoreTwoWheelerRunner
 		
 		boolean found=storeTwoWheeler.search("TVS iQube");
 		System.out.println("Model found : "+found);
+		
+		boolean update=storeTwoWheeler.update(13,"TVS Ntorq 125");
+		System.out.println("Updated ? : "+update);
+		
+		boolean update1=storeTwoWheeler.update("Bajaj Pulsar 125","TVS Jupiter");
+		System.out.println("Updated ? : "+update1);
+		
+		String delete=storeTwoWheeler.delete(18);
+		System.out.println("Deleted ? : "+delete);
+		
+		String delete1=storeTwoWheeler.delete("Ather Rizta");
+		System.out.println("Deleted ? : "+delete1);
 	}
 }

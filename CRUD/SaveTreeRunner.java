@@ -19,5 +19,17 @@ class SaveTreeRunner
 		
 		boolean found=saveTree.search("Coconut Tree");
 		System.out.println("Tree name found : "+found);
+		
+		boolean update=saveTree.update(8,"Gauva Tree");
+		System.out.println("Updated ? : "+update);
+		
+		boolean update1=saveTree.update("Pine Tree","Tangerine Tree");
+		System.out.println("Updated ? : "+update1);
+		
+		String delete=saveTree.delete(3);
+		System.out.println("Deleted ? : "+delete);
+		
+		String delete1=saveTree.delete("Apple Tree");
+		System.out.println("Deleted ? : "+delete1);
 	}
 }

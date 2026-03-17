@@ -19,5 +19,17 @@ class StoreKettleBrandRunner
 		
 		boolean found=storeKettleBrand.search("Bajaj");
 		System.out.println("Kettle brand name found : "+found);
+		
+		boolean update=storeKettleBrand.update(4,"Havells");
+		System.out.println("Updated ? : "+update);
+		
+		boolean update1=storeKettleBrand.update("Zwilling","OXO Brew");
+		System.out.println("Updated ? : "+update1);
+		
+		String delete=storeKettleBrand.delete(0);
+		System.out.println("Deleted ? : "+delete);
+		
+		String delete1=storeKettleBrand.delete("Smeg");
+		System.out.println("Deleted ? : "+delete1);
 	}
 }

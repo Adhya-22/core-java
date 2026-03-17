@@ -61,4 +61,84 @@ class StoreTurbineManufacturer
 		}
 		return false;
 	}
+	
+		boolean update(int index,String company)
+	{
+		System.out.println("Executing update in StoreTurbineManufacturer...");
+		if(index>=0 && index<=this.companies.length-1)
+		{
+			System.out.println("Index present, can update.");
+			if(company!=null)
+			{
+				this.companies[index]=company;
+				System.out.println("Stored : "+company);
+				return true;
+			}
+			else
+			{
+				System.out.println("company is null...");
+			}
+		}
+		else
+		{
+			System.out.println("Index not present..");
+		}
+		return false;
+	}
+	
+	boolean update(String oldCompany,String newCompany)
+	{
+		System.out.println("Executing update using element in StoreTurbineManufacturer..");
+		if(oldCompany!=null)
+		{
+			int index=0;
+			for(String company:companies)
+			{
+				if(company==oldCompany)
+				{
+					this.companies[index]=newCompany;
+					System.out.println("Stored : "+newCompany);
+					return true;
+				}
+				index++;
+			}
+		}
+		else
+		{
+			System.out.println("Old company is null...");
+		}
+		return false;
+	}
+	
+	String delete(int index)
+	{
+		System.out.println("Executing delete in StoreTurbineManufacturer..");
+		if(index>=0 && index<=this.companies.length-1)
+		{
+			System.out.println("Index Present, can delete.");
+			this.companies[index]=null;
+			return "DELETED SUCCESSFULLY";
+		}
+		else
+		{
+			System.out.println("Index not present..");
+		}
+		return "FAILED";
+	}
+	
+	String delete(String company)
+	{
+		System.out.println("Executing delete with company in StoreTurbineManufacturer..");
+		int index=0;
+		for(String savedCompany:companies)
+		{
+			if(savedCompany==company)
+			{
+				this.companies[index]=null;
+				return "DELETED SUCCESSFULLY";
+			}
+			index++;
+		}
+		return "FAILED";
+	}
 }

@@ -19,5 +19,17 @@ class StoreSteelPlantRunner
 		
 		boolean found=storeSteelPlant.search("Jindal Stainless Ltd (JSL)");
 		System.out.println("Steel plant name found : "+found);
+		
+		boolean update=storeSteelPlant.update(4,"Rashtriya Ispat Nigam Ltd");
+		System.out.println("Updated ? : "+update);
+		
+		boolean update1=storeSteelPlant.update("Electrosteel Steels Ltd ","AM/NS India (ArcelorMittal Nippon Steel India)");
+		System.out.println("Updated ? : "+update1);
+		
+		String delete=storeSteelPlant.delete(7);
+		System.out.println("Deleted ? : "+delete);
+		
+		String delete1=storeSteelPlant.delete("Jindal Stainless Ltd (JSL)");
+		System.out.println("Deleted ? : "+delete1);
 	}
 }

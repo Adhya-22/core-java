@@ -19,5 +19,18 @@ class SavePastaRunner
 		
 		boolean found=savePasta.search("Rigatoni");
 		System.out.println("Pasta Type found : "+found);
+		
+		boolean updated=savePasta.update(11,"White");
+		System.out.println("Paste type updated ? : "+updated);
+		
+		boolean updated1=savePasta.update("Linguine","White");
+		System.out.println("Paste type updated ? : "+updated1);
+		
+		String delete=savePasta.delete(3);
+		System.out.println("Deleted ? : "+delete);
+		
+		String delete1=savePasta.delete("Penne");
+		System.out.println("Deleted ? : "+delete1);
+		
 	}
 }

@@ -59,6 +59,18 @@ class SaveSingerRunner
 		
 		boolean found=singer.search("Ariana Grande");
 		System.out.println("Singer found : "+found);
+		
+		boolean update=singer.update(45,"Arijit Singh");
+		System.out.println("updated ? : "+update);
+		
+		boolean update1=singer.update("Justin Timberlake","Sunidhi Chauhan");
+		System.out.println("updated ? : "+update1);
+		
+		String delete=singer.delete(4);
+		System.out.println("Deleted ? : "+delete);
+		
+		String delete1=singer.delete("Bruno Mars");
+		System.out.println("Deleted ? : "+delete1);
 	}
 	
 	

@@ -61,4 +61,84 @@ class SaveSinger
 		}
 		return false;
 	}
+	
+	boolean update(int index,String name)
+	{
+		System.out.println("Executing update in SaveSinger..");
+		if(index>=0 && index<=this.names.length-1)
+		{
+			System.out.println("Index present, can update");
+			if(name!=null)
+			{
+				this.names[index]=name;
+				System.out.println("Stored : "+name);
+				return true;
+			}
+			else
+			{
+				System.out.println("Name is null..");
+			}
+		}
+		else
+		{
+			System.out.println("Index not present..");
+		}
+		return false;
+	}
+	
+	boolean update(String oldName,String newName)
+	{
+		System.out.println("Executing update with name in SaveSinger...");
+		if(oldName!=null)
+		{
+			int index=0;
+			for(String name:names)
+			{
+				if(oldName==name)
+				{
+					this.names[index]=newName;
+					System.out.println("Stored : "+newName);
+					return true;
+				}
+				index++;
+			}
+		}
+		else
+		{
+			System.out.println("oldName is null..");
+		}
+		return false;
+	}
+	
+	String delete(int index)
+	{
+		System.out.println("Executing delete in SaveSinger...");
+		if(index>=0 && index<=this.names.length-1)
+		{
+			System.out.println("Index Present, can delete.");
+			this.names[index]=null;
+			return "DELETED SUCCESSFULLY";
+		}
+		else
+		{
+			System.out.println("Index not present..");
+		}
+		return "FAILED";
+	}
+	
+	String delete(String type)
+	{
+		System.out.println("Executing delete with type in SaveSinger..");
+		int index=0;
+		for(String savedName:names)
+		{
+			if(savedName==type)
+			{
+				this.names[index]=null;
+				return "DELETED SUCCESSFULLY";
+			}
+			index++;
+		}
+		return "FAILED";
+	}
 }

@@ -19,5 +19,17 @@ class StoreTurbineManufacturerRunner
 		
 		boolean found=storeTurbineManufacturer.search("Wind World India Ltd.");
 		System.out.println("Turbine manufacturer name found : "+found);
+		
+		boolean update=storeTurbineManufacturer.update(5,"Siemens Gamesa Renewable Energy Projects Pvt. Ltd.");
+		System.out.println("Updated ? : "+update);
+		
+		boolean update1=storeTurbineManufacturer.update("Enercon WindEnergy Pvt. Ltd.","Suzlon Energy Ltd.");
+		System.out.println("Updated ? : "+update1);
+		
+		String delete=storeTurbineManufacturer.delete(3);
+		System.out.println("Deleted ? : "+delete);
+		
+		String delete1=storeTurbineManufacturer.delete("Wind World India Ltd.");
+		System.out.println("Deleted ? : "+delete1);
 	}
 }
