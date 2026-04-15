@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Door/Door.iml" filepath="$PROJECT_DIR$/Door/Door.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Laptop/Laptop.iml" filepath="$PROJECT_DIR$/Laptop/Laptop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OverRiding/OverRiding.iml" filepath="$PROJECT_DIR$/OverRiding/OverRiding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Suitcase/Suitcase.iml" filepath="$PROJECT_DIR$/Suitcase/Suitcase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TCS/TCS.iml" filepath="$PROJECT_DIR$/TCS/TCS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Towel/Towel.iml" filepath="$PROJECT_DIR$/Towel/Towel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core-java.iml" filepath="$PROJECT_DIR$/core-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/internship/internship.iml" filepath="$PROJECT_DIR$/internship/internship.iml" />
+      <module fileurl="file://$PROJECT_DIR$/krmarket/krmarket.iml" filepath="$PROJECT_DIR$/krmarket/krmarket.iml" />
+    </modules>
+  </component>
+</project>
