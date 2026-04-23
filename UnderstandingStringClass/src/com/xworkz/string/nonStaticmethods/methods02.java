@@ -1,5 +1,7 @@
 package com.xworkz.string.nonStaticmethods;
 
+import java.util.Arrays;
+
 public class methods02
 {
     public static void main(String[] args) {
@@ -25,5 +27,22 @@ public class methods02
         name.getChars(1,3,arr,1);
         System.out.println(arr);
         /// copies the characters at given srcBeging(starting index) to srcEnd(ending index)  into the destination array from the index specified(dstBegin)
+
+        System.out.println(name.equals(box));
+
+        System.out.println(box.equalsIgnoreCase("HELLO"));
+
+        byte[] result2=box.getBytes();
+        System.out.println(Arrays.toString(result2));
+
+        String result3=box.toLowerCase();
+        System.out.println(result3);
+
+        String result4=box.toUpperCase();
+        System.out.println(result4);
+
+        int result5=name.compareTo("gowda");
+        System.out.println(result5);
+
     }
 }
