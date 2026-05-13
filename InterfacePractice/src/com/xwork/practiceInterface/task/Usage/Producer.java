@@ -4,7 +4,7 @@ import com.xwork.practiceInterface.task.Supermarket;
 
 public class Producer
 {
-    Supermarket supermarket;
+    private Supermarket supermarket;
 
     public Producer(Supermarket supermarket)
     {

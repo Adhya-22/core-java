@@ -4,7 +4,7 @@ import com.xwork.practiceInterface.task.OperatingSystem;
 
 public class Dell
 {
-    OperatingSystem operatingSystem;
+    private OperatingSystem operatingSystem;
 
     public Dell(OperatingSystem operatingSystem)
     {

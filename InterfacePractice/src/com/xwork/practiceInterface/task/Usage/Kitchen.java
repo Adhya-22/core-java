@@ -2,6 +2,8 @@ package com.xwork.practiceInterface.task.Usage;
 
 import com.xwork.practiceInterface.task.MenuCard;
 
+import java.util.Arrays;
+
 public class Kitchen
 {
     private MenuCard menuCard;
@@ -16,7 +18,8 @@ public class Kitchen
         System.out.println("running serve in Kitchen");
         if(this.menuCard != null)
         {
-            this.menuCard.getItems(8,"Adhya");
+            String[] items=this.menuCard.getItems(8,"Adhya");
+            System.out.println("items="+ Arrays.toString(items));
             System.out.println("Items are served");
         }
     }

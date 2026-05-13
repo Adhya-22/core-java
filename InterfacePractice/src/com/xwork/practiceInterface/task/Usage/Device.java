@@ -4,7 +4,7 @@ import com.xwork.practiceInterface.task.Bluetooth;
 
 public class Device
 {
-    Bluetooth bluetooth;
+    private Bluetooth bluetooth;
 
     public Device(Bluetooth bluetooth)
     {

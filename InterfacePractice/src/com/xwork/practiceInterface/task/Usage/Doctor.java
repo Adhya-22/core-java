@@ -4,14 +4,14 @@ import com.xwork.practiceInterface.task.Hospital;
 
 public class Doctor
 {
-    Hospital hospital;
+    private Hospital hospital;
 
     public Doctor(Hospital hospital)
     {
         this.hospital=hospital;
     }
 
-    public void Prescribe()
+    public void prescribe()
     {
         System.out.println("prescribing medicine");
         if(this.hospital!=null)
